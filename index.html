@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- BOOSTRAP LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+  <!-- FontAwsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Keto</title>
+
+  <!-- Favicon icon -->
+  <link rel="icon" type="image/png" href="../KETO WEBSITES/Assets/favicon-32x32.png">
+</head>
+
+<body>
+  <!-- Navbar-Section -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand fw-bold text-danger d-flex align-items-center" href="#">
+        <img src="./Assets/logo.png" alt="">
+      </a>
+
+      <!-- Toggle button for mobile -->
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-items">
+            <a class="nav-link active fw-bold text-danger" href="#1">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link with-lines" href="#2">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link with-lines" href="#3">OUR ROOM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link with-lines" href="#4">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link with-lines" href="#5">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link with-lines" href="#6">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero-Carousel -->
+  <div class="carousel-container" id="1">
+    <div class="carousel-wrapper">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="carousel-slide" data-slide="1">
+          <img src="./Assets/banner1.jpg" alt="">
+        </div>
+        <div class="carousel-slide" data-slide="2">
+          <img src="./Assets/banner2.jpg" alt="">
+        </div>
+        <div class="carousel-slide" data-slide="3">
+          <img src="./Assets/banner3.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="control-btn" id="prevBtn" aria-label="Image précédente">
+          <svg viewBox="0 0 24 24">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+        <button class="control-btn" id="nextBtn" aria-label="Image suivante">
+          <svg viewBox="0 0 24 24">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel Card -->
+    <div class="booking-card">
+      <h2>BOOK A ROOM ONLINE</h2>
+      <label>Arrival</label>
+      <input type="date"><i class="fa-solid fa-calendar-days"></i>
+
+      <label>Departure</label>
+      <input type="date"><i class="fa-solid fa-calendar-days"></i>
+
+      <div class="btn1">
+        <button class="cta">Book Now</button>
+      </div>
+    </div>
+
+    <div class="carousel-indicators" id="indicators">
+      <button class="indicator active" data-slide="0"></button>
+      <button class="indicator" data-slide="1"></button>
+      <button class="indicator" data-slide="2"></button>
+    </div>
+  </div>
+
+
+  <!-- About-Section -->
+  <div class="About-section" id="2">
+    <div class="About-text">
+      <h1>About Us</h1>
+      <p>The passage experienced a surge in popularity <br> during the 1960s when Letraset used it on their dry-
+        <br>transfer sheets, and again during the 90s as <br> desktop publishers bundled the text with their <br>
+        software. Today it's seen all around the web; on <br> templates, websites, and stock designs. Use our <br>
+        generator to get your own, or read on for the <br> authoritative history of lorem ipsum.
+      </p>
+      <button class="read">Read More</button>
+    </div>
+    <div class="About-img">
+      <img src="./Assets/about.png" alt="">
+    </div>
+  </div>
+
+  <!-- OUR-ROOMS -->
+  <div class="Our-rooms" id="3">
+    <div class="room-text">
+      <h1>Our Room</h1>
+      <p>Lorem Ipsum available, but the majority have suffered</p>
+    </div>
+  </div>
+  <div class="card-container">
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="./Assets/room1.jpg" alt="Card Image">
+      <div class="card-body">
+        <h5 class="card-title">Bed Room</h5>
+        <p>If you are going to use a passage of <br> Lorem Ipsum, you need to be sure there</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="./Assets/room2.jpg" alt="Card Image">
+      <div class="card-body">
+        <h5 class="card-title">Bed Room</h5>
+        <p>If you are going to use a passage of <br> Lorem Ipsum, you need to be sure there</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <img src="./Assets/room3.jpg" alt="Card Image">
+      <div class="card-body">
+        <h5 class="card-title">Bed Room</h5>
+        <p>If you are going to use a passage of <br> Lorem Ipsum, you need to be sure there</p>
+      </div>
+    </div>
+  </div>
+  <div class="card-container2">
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="./Assets/room4.jpg" alt="Card Image">
+      <div class="card-body">
+        <h5 class="card-title">Bed Room</h5>
+        <p>If you are going to use a passage of <br> Lorem Ipsum, you need to be sure there</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="./Assets/room5.jpg" alt="Card Image">
+      <div class="card-body">
+        <h5 class="card-title">Bed Room</h5>
+        <p>If you are going to use a passage of <br> Lorem Ipsum, you need to be sure there</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <img src="./Assets/room6.jpg" alt="Card Image">
+      <div class="card-body">
+        <h5 class="card-title">Bed Room</h5>
+        <p>If you are going to use a passage of <br> Lorem Ipsum, you need to be sure there</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery -->
+  <div class="gallery" id="4">
+    <h1>gallery</h1>
+  </div>
+  <!-- Gallery imgages -->
+  <div class="gallery-container">
+    <div class="gallery-img">
+      <img src="./Assets/gallery1.jpg" alt="">
+      <img src="./Assets/gallery2.jpg" alt="">
+      <img src="./Assets/gallery3.jpg" alt="">
+      <img src="./Assets/gallery4.jpg" alt="">
+    </div>
+  </div>
+  <div class="gallery-container1">
+    <div class="gallery-img">
+      <img src="./Assets/gallery5.jpg" alt="">
+      <img src="./Assets/gallery6.jpg" alt="">
+      <img src="./Assets/gallery7.jpg" alt="">
+      <img src="./Assets/gallery8.jpg" alt="">
+    </div>
+  </div>
+
+  <!-- BLOG -->
+  <div class="blog" id="5">
+    <div class="blog-text">
+      <h1>BLOG</h1>
+      <p>Lorem Ipsum available, but the majority have suffered</p>
+    </div>
+    <div class="card-container">
+      <!-- Card 1 -->
+      <div class="card-01">
+        <img src="./Assets/blog1.jpg" alt="Card Image">
+        <div class="card-text">
+          <h5 class="card-title1">Bed Room</h5>
+          <h6>The standard chunk</h6>
+          <p>If you are going to use a passage of Lorem <br> Ipsum, you need to be sure there isn't <br> anything
+            embarrassing hidden in the <br> middle of text. All the Lorem Ipsum <br> generatorsIf you are</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card-01">
+        <img src="./Assets/blog2.jpg" alt="Card Image">
+        <div class="card-text">
+          <h5 class="card-title1">Bed Room</h5>
+          <h6>The standard chunk</h6>
+          <p>If you are going to use a passage of Lorem <br> Ipsum, you need to be sure there isn't <br> anything
+            embarrassing hidden in the <br> middle of text. All the Lorem Ipsum <br> generatorsIf you are</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card-01">
+        <img src="./Assets/blog3.jpg" alt="Card Image">
+        <div class="card-text">
+          <h5 class="card-title1">Bed Room</h5>
+          <h6>The standard chunk</h6>
+          <p>If you are going to use a passage of Lorem <br> Ipsum, you need to be sure there isn't <br> anything
+            embarrassing hidden in the <br> middle of text. All the Lorem Ipsum <br> generatorsIf you are</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT-US -->
+  <div class="contact-us" id="6">
+    <h1>CONTACT US</h1>
+  </div>
+  <!-- form -->
+  <div class="form-container">
+    <form action="#">
+      <div>
+        <input type="text" placeholder="Name">
+      </div>
+      <div>
+        <input type="email" placeholder="Email">
+      </div>
+      <div>
+        <input type="text" placeholder="Phone Number">
+      </div>
+      <div>
+        <textarea name="" id="">Message</textarea>
+      </div>
+      <button class="btn3">Send</button>
+    </form>
+    <div class="map">
+      <div class="ratio ratio-16x9 map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96714.68291250926!2d-74.05953969406828!3d40.75468158321536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20Nowy%20Jork%2C%20Stany%20Zjednoczone!5e0!3m2!1spl!2spl!4v1672242259543!5m2!1spl!2spl"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="contacts">
+      <h2>Contact Us</h2>
+      <ul>
+        <li><i class="fa-solid fa-location-dot"></i>Address</li>
+        <li><i class="fa-solid fa-mobile-screen-button"></i> +01 1234569540</li>
+        <li><i class="fa-solid fa-envelope">demo@gmail.com</i></li>
+      </ul>
+    </div>
+    <div class="menu">
+      <h2>Menu Link</h2>
+      <ul>
+        <a class="link" href="#1"><li>Home</li></a>
+        <a class="links" href="#2"><li>About</li></a>
+        <a class="links" href="#3"><li>Our Rooms</li></a>
+        <a class="links" href="#4"><li>Gallery</li></a>
+        <a class="links" href="#5"><li>Blog</li></a>
+        <a class="links" href="#6"><li>Contact Us</li></a>
+      </ul>
+    </div>
+    <div class="news">
+      <h2>News letter</h2>
+      <input class="letter" type="email" placeholder="Enter your email">
+      <div class="news-btn">
+        <button>SUBSCRIBE</button>
+      </div>
+      <ul class="icons">
+        <li><i class="fa-brands fa-facebook-f"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-youtube"></i></li>
+      </ul>
+    </div>
+  </footer>
+  <section>
+    <p>© 2019 All Rights Reserved. Design by Free Html Templates </p>
+    <p class="html"> Distributed by ThemeWagon</p>
+  </section>
+
+
+
+
+
+  <script src="./script.js"></script>
+  <!-- Boostrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
